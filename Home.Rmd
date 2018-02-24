@@ -14,7 +14,9 @@ writeLines(c(msj,"<p>Copyright &copy; All rights reserved.</p>"),fileConn)
 close(fileConn)
 ```
 
-El objetivo del estudio es estimar y predecir la actividad sismica de la magnitud local en la escala de Richter. Los puntos y rangos donde puede haber movimientos sismicos dependiendo de la escala de medición. 
+modificación 
+
+El Objetivo del estudio es estimar y predecir la actividad sismica de la magnitud local en la escala de Richter. Los puntos y rangos donde puede haber movimientos sismicos dependiendo de la escala de medición. 
 
 Se utilizó un análisis geoestadítico por medio de 3 métodos $Kriging Universal$, $Kriging Ordinario$ y $Inverso de la distancia$. El método con mejor ajuste es el $Kriging Universal$ porque la varianza no genera islas en el mapa y es menor a los anteriores métodos. Para esto se utilizó la siguiente metodología:
 
